@@ -37,6 +37,7 @@ const ToDoList = ()=>{
             update[index+1] = update[index];
             update[index] = temp;
             setList(update);
+            
             }
     }
     
